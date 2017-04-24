@@ -1,0 +1,80 @@
+.login-container {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;;
+  color: black;
+  height: 310px;
+  background: rgba(255, 255, 255, 0.93);/*rgba(21, 41, 53, 0.9);*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 330px;
+  border-radius: 20px;
+}
+
+.backdrop {
+  background-image: url("assets/img/stock/family-bg.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 200px);
+    color: black;
+    height: 310px;
+  }
+
+  .backdrop {
+    background-image: unset;
+    background-size: unset;
+    background: #4178be;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.watson-logo {
+  width: 280px;
+  margin-left: -14%;
+  max-width: 400px;
+  min-width: 200px;
+  margin-bottom: -20px;
+}
+
+.submit-button {
+  transition: background-color 0.5s ease;
+  background: #264a60;
+  border-width: 0;
+  height: 34px;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 7px;
+}
+
+.tag-line {
+  font-weight: 300;
+  font-size: 21px;
+  margin-top: -12px;
+  margin-bottom: 5px;
+}
+
+.button-alert {
+  transition: background-color .75s ease;
+  background: red;
+}
+
+.button-normal {
+  transition: background-color .75s ease;
+  background: #264a60;
+}

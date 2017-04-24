@@ -1,0 +1,111 @@
+[
+  {
+    "billingNameAndAddress": {
+      "name": "Cherly Morris",
+      "address": {
+        "postalCode": "94020",
+        "city": "Palo Alto",
+        "state": "CA",
+        "addressLine1": "6073 Bus Ave"
+      }
+    },
+    "accountBalance": "732.25",
+    "paymentScheduledIndicator": "true",
+    "policyList": [
+      {
+        "policyNumber": "123456710011",
+        "policyType": "Auto"
+      }
+    ],
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "133.22",
+        "activityDate": "01-20-2017"
+      }
+    ],
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "132.45",
+    "paymentDueDate": "02-22-2017",
+    "billingDocuments": [
+      {
+        "documentDate": "01-22-2017",
+        "documentId": "1111112",
+        "documentType": "Regular Notice"
+      }
+    ]
+  },
+  {
+    "billingNameAndAddress": {
+      "name": "Cherly Morris",
+      "address": {
+        "postalCode": "94020",
+        "city": "Palo Alto",
+        "state": "CA",
+        "addressLine1": "6073 Bus Ave"
+      }
+    },
+    "accountBalance": "1234.00",
+    "paymentScheduledIndicator": "true",
+    "policyList": [
+      {
+        "policyNumber": "123456710012",
+        "policyType": "Homeowners"
+      }
+    ],
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "1199.12",
+        "activityDate": "02-01-2016"
+      }
+    ],
+    "billAccountNumber": "01555510012",
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "1234.00",
+    "paymentDueDate": "02-13-2016",
+    "billingDocuments": [
+      {
+        "documentDate": "01-02-2017",
+        "documentId": "1111112",
+        "documentType": "Regular Notice"
+      }
+    ]
+  },
+  {
+    "billingNameAndAddress": {
+      "name": "Cherly Morris",
+      "address": {
+        "postalCode": "94020",
+        "city": "Palo Alto",
+        "state": "CA",
+        "addressLine1": "6073 Bus Ave"
+      }
+    },
+    "accountBalance": "325.00",
+    "paymentScheduledIndicator": "true",
+    "policyList": [
+      {
+        "policyNumber": "123456710013",
+        "policyType": "Life"
+      }
+    ],
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "24.00",
+        "activityDate": "01-05-2017"
+      }
+    ],
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "34.00",
+    "paymentDueDate": "02-12-2017",
+    "billingDocuments": [
+      {
+        "documentDate": "01-10-2017",
+        "documentId": "1111112",
+        "documentType": "Regular Notice"
+      }
+    ]
+  }
+]

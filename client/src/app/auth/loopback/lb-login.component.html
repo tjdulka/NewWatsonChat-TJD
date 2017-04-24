@@ -1,0 +1,25 @@
+<div class="backdrop">
+  <div class="login-container">
+    <!--
+    <div *ngIf="isError" class="alert alert-danger">
+      <p>{{errorMsg}}</p>
+    </div>
+  -->
+    <div class="login-form">
+      <form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
+        <div class="logo-container">
+          <img src="/assets/img/ibm/watson/stacked/watson-stacked-pos.png" class="watson-logo">
+          <div class="tag-line"> Your AI Billing Expert
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="username" formControlName="username" placeholder="Username">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="password" formControlName="password" placeholder="Password  ">
+        </div>
+        <button type="submit" class="submit-button" [ngClass]="{'button-alert': isError, 'button-normal': !isError}" [disabled]="!loginForm.valid">{{buttonText}}</button>
+      </form>
+    </div>
+  </div>
+</div>

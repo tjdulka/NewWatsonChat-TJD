@@ -1,0 +1,139 @@
+{
+  "customers": [
+    {
+    	"partyId": "1001000",
+    	"firstName": "Thomas",
+    	"lastName": "Watson",
+    	"dateOfBirth": "02-17-1874",
+    	"last4SSN": "1000",
+    	"line1": "1 New Orchard Rd",
+    	"city": "Armonk",
+    	"state": "NY",
+    	"countryIdentifier": "USA",
+    	"zip5": "10504",
+      "contactDetail": {
+        "primaryMailingAddress": {
+          "line1": "1 New Orchard Rd",
+          "city": "Armonk",
+          "state": "NY",
+          "countryIdentifier": "USA",
+          "zip": "10504"
+        }
+      },
+      "person": {
+        "name": {
+          "firstName": "Thomas",
+          "lastName": "Watson"
+        }
+      }
+    },
+    {
+    	"partyId": "1001001",
+    	"firstName": "Cherly",
+    	"lastName": "Morris",
+    	"dateOfBirth": "12-06-1985",
+    	"last4SSN": "1001",
+    	"line1": "6073 Bus Ave",
+    	"city": "Palo Alto",
+    	"state": "CA",
+    	"countryIdentifier": "USA",
+    	"zip5": "94020",
+      "contactDetail": {
+        "primaryMailingAddress": {
+          "line1": "6073 Bus Ave",
+          "city": "Palo Alto",
+          "state": "CA",
+          "countryIdentifier": "USA",
+          "zip": "94020"
+        }
+      },
+      "person": {
+        "name": {
+          "firstName": "Cherly",
+          "lastName": "Morris"
+        }
+      }
+    },
+    {
+    	"partyId": "1001002",
+    	"firstName": "Danny",
+    	"lastName": "Jones",
+    	"dateOfBirth": "06-01-1974",
+    	"last4SSN": "1002",
+    	"line1": "4707 Lovers Ln",
+    	"city": "Elmhurst",
+    	"state": "IL",
+    	"countryIdentifier": "USA",
+    	"zip5": "60106",
+      "contactDetail": {
+        "primaryMailingAddress": {
+          "line1": "4707 Lovers Ln",
+          "city": "Elmhurst",
+          "state": "IL",
+          "countryIdentifier": "USA",
+          "zip": "60106"
+        }
+      },
+      "person": {
+        "name": {
+          "firstName": "Danny",
+          "lastName": "Jones"
+        }
+      }
+    },
+    {
+    	"partyId": "1001003",
+    	"firstName": "Bucky",
+    	"lastName": "Randall",
+    	"dateOfBirth": "10-06-1917",
+    	"last4SSN": "2010",
+    	"line1": "1440 Monroe St",
+    	"city": "Madison",
+    	"state": "WI",
+    	"countryIdentifier": "USA",
+    	"zip5": "53711",
+      "contactDetail": {
+        "primaryMailingAddress": {
+          "line1": "1440 Monroe St",
+          "city": "Madison",
+          "state": "WI",
+          "countryIdentifier": "USA",
+          "zip": "53711"
+        }
+      },
+      "person": {
+        "name": {
+          "firstName": "Bucky",
+          "lastName": "Randall"
+        }
+      }
+    },
+    {
+    	"partyId": "1001004",
+    	"firstName": "Jerry",
+    	"lastName": "Johnson",
+    	"dateOfBirth": "05-06-1981",
+    	"last4SSN": "1004",
+    	"line1": "2623 Capitol Ave",
+    	"city": "Phoenix",
+    	"state": "AZ",
+    	"countryIdentifier": "USA",
+    	"zip5": "85015",
+      "contactDetail": {
+        "primaryMailingAddress": {
+          "line1": "2623 Capitol Ave",
+          "city": "Phoenix",
+          "state": "AZ",
+          "countryIdentifier": "USA",
+          "zip": "85015"
+        }
+      },
+      "person": {
+        "name": {
+        "firstName": "Jerry",
+        "lastName": "Johnson"
+        }
+      }
+    }
+  ]
+}

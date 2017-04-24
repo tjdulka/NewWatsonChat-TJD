@@ -1,0 +1,13 @@
+<div style="width:100%; height:200px">
+  <p> Your current intent is <b> {{ currentIntent }} </b>{{ intentConfidenceLabel }} </p>
+  <p> Your current sentiment is <b> {{ sentimentLabel }} </b></p>
+  <p> Your current emotion is <b> {{ primaryEmotion }} </b>{{ emotionLabel }} </p>
+  <canvas baseChart class="chart" width="400" height="300"
+    [datasets]="lineChartData"
+    [labels]="lineChartLabels"
+    [options]="lineChartOptions"
+    [colors]="lineChartColors"
+    [legend]="false"
+    [chartType]="lineChartType">
+  </canvas>
+</div>

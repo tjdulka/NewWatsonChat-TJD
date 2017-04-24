@@ -1,0 +1,45 @@
+{
+  "name": "Conversation",
+  "plural": "Conversations",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "http": {
+    "path": "/watson-conversation"
+  },
+  "properties": {
+    "context": {
+      "type": "object",
+      "description": "The preserved context object"
+    },
+    "input": {
+      "type": {
+        "text": {
+          "type": "string",
+          "required": true
+        }
+      },
+      "id": true,
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "*"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "*"
+    }
+  ],
+  "methods": {}
+}

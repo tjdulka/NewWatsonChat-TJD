@@ -1,0 +1,76 @@
+[
+  {
+    "billingNameAndAddress": {
+      "name": "Thomas Watson",
+      "address": {
+        "postalCode": "10504",
+        "city": "Armonk",
+        "state": "NY",
+        "addressLine1": "1 New Orchard Rd"
+      }
+    },
+    "accountBalance": "655.25",
+    "paymentScheduledIndicator": "false",
+    "policyList": [
+      {
+        "policyNumber": "123456710001",
+        "policyType": "Auto"
+      }
+    ],
+    "accountStatus": "ACTIVE",
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "101.34",
+        "activityDate": "01-15-2017"
+      }
+    ],
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "105.45",
+    "paymentDueDate": "02-21-2017",
+    "billingDocuments": [
+      {
+        "documentDate": "01-18-2017",
+        "documentId": "1111111",
+        "documentType": "Regular Notice"
+      }
+    ]
+  },
+  {
+    "billingNameAndAddress": {
+      "name": "Thomas Watson",
+      "address": {
+        "postalCode": "10504",
+        "city": "Armonk",
+        "state": "NY",
+        "addressLine1": "1 New Orchard Rd"
+      }
+    },
+    "accountBalance": "0.00",
+    "paymentScheduledIndicator": "false",
+    "policyList": [
+      {
+        "policyNumber": "123456710002",
+        "policyType": "Homeowners"
+      }
+    ],
+    "accountStatus": "ACTIVE",
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "1165.34",
+        "activityDate": "09-28-2016"
+      }
+    ],
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "0.00",
+    "paymentDueDate": "10-01-2016",
+    "billingDocuments": [
+      {
+        "documentDate": "08-25-2016",
+        "documentId": "1111111",
+        "documentType": "Regular Notice"
+      }
+    ]
+  }
+]

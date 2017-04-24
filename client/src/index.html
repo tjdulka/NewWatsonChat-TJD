@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Watson Agent</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script src="/assets/script/web-animations.min.js"></script>
+  <!-- IOS SAFARI WORKAROUND -->
+  <script type='text/javascript'>
+    window.iosFallbackTest = function() {
+      window.iosFallback = false
+      if ($(window).height() - $(".scrolling-box").height() < 150) {
+        console.log('ios safari viewport fallback started')
+        window.iosFallback = true
+        console.log('intial difference: ' + ($(window).height() - $(".scrolling-box").height()))
+        $(".scrolling-box").height($(window).height() - 150)
+      }
+
+
+      $( window ).resize(function() {
+        if (window.iosFallback) {
+          if ($(".scrolling-box").height() - $(window).height() < 150) {
+            console.log('ios safari viewport fallback refresh')
+            $(".scrolling-box").height($(window).height() - 150)
+          }
+        }
+      })
+    }
+    $( document ).ready(function() {
+      window.iosFallbackTest()
+    })
+  </script>
+</head>
+<body>
+  <wcga-root>Loading... </wcga-root>
+</body>
+</html>

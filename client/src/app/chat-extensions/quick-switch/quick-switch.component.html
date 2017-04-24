@@ -1,0 +1,12 @@
+<div class='container'>
+  <p><b>Quickly switch profiles:</b><p>
+  <select [(ngModel)]='currentSelection'>
+    <option *ngFor='let customer of customers; let i = index' value='{{i}}'>{{customer.firstName + ' ' + customer.lastName}}</option>
+  </select>
+  <button class='switch' (click)=switchProfile()> Use </button>
+  <p> <b> Scenario: </b> {{customers[currentSelection].scenario}} <br>
+  <b> Last Name: </b> {{customers[currentSelection].lastName}} <br>
+  <b> DOB: </b> {{customers[currentSelection].dateOfBirth}}  <br>
+  <b> Zip Code: </b> {{customers[currentSelection].zip5}} <br>
+  <b> Last 4 SSN: </b> {{customers[currentSelection].last4SSN}} </p>
+</div>

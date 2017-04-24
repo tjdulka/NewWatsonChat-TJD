@@ -1,0 +1,32 @@
+<div class="sidebar">
+  <div *ngIf="!propertySelected" class="intro-message">
+    <p> <b> Hi there, I'm your personal AI billing assistant </b>
+    <p> {{helperMessage}} </p>
+  </div>
+  <wcga-quick-switch> </wcga-quick-switch>
+  <div class="spacer"> </div>
+  <h4> What is Watson thinking? </h4>
+  <p> Wondering what Watson is thinking? Here's what Watson thought about your last message</p>
+  <wcga-sentiment-chart> </wcga-sentiment-chart>
+</div>
+
+<div bsModal #detailsModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="detailsMobile" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4> What does Watson know? </h4>
+        <button type="button" class="close" (click)="detailsModal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div style="padding:10px">
+        <wcga-quick-switch> </wcga-quick-switch>
+      </div>
+      <div style="padding:10px; margin-bottom: 100px">
+        <h4> What is Watson thinking? </h4>
+        <p> Wondering what Watson is thinking? Here's what Watson thought about your last message</p>
+        <wcga-sentiment-chart> </wcga-sentiment-chart>
+      </div>
+    </div>
+  </div>
+</div>

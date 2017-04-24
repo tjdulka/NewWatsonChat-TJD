@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+a.link, a.link:hover, a.link:visited, a.link:active {
+  color: #c0e6ff;
+  font-weight: 600;
+  text-decoration: underline;
+}

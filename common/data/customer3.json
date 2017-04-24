@@ -1,0 +1,43 @@
+[
+  {
+    "billingNameAndAddress": {
+      "name": "Bucky Randall",
+      "address": {
+        "postalCode": "53711",
+        "city": "Madison",
+        "state": "WI",
+        "addressLine1": "1440 Monroe St"
+      }
+    },
+    "accountBalance": "325.12",
+    "paymentScheduledIndicator": "false",
+    "policyList": [
+      {
+        "policyNumber": "123456710031",
+        "policyType": "Auto"
+      }
+    ],
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "165.45",
+        "activityDate": "01-02-2017"
+      }
+    ],
+    "pastDueIndicator": "true",
+    "minimumAmountDue": "165.45",
+    "paymentDueDate": "02-03-2017",
+    "billingDocuments": [
+      {
+        "documentDate": "02-06-2017",
+        "documentId": "11112222",
+        "documentType": "Past Due Notice"
+      },
+      {
+        "documentDate": "01-05-2017",
+        "documentId": "1111112",
+        "documentType": "Regular Notice"
+      }
+    ]
+  }
+]

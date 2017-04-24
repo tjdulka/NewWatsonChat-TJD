@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: watson-billing-agent
+  host: watson-billing-agent
+  disk_quota: 1024M
+env:
+  CONVERSATION_API_URL: https://username:password@gateway.watsonplatform.net/conversation/api/v1/workspaces/workspaceid/message?version=2017-02-03
+  ALCHEMY_API_KEY:
+  ALCHEMY_BASE_URL: https://gateway-a.watsonplatform.net/calls/
+  ALCHEMY_SENTIMENT_PATH: text/TextGetTextSentiment
+  ALCHEMY_EMOTION_PATH: text/TextGetEmotion

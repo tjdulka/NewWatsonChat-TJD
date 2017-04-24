@@ -1,0 +1,74 @@
+{
+  "customers": [
+    {
+  "scenario": "Multiple accounts, current, and payments not scheduled",
+	"partyId": "1001000",
+	"typeOfPartyCode": "PERSON",
+	"firstName": "Thomas",
+	"lastName": "Watson",
+	"dateOfBirth": "02-17-1874",
+	"last4SSN": "1000",
+	"line1": "1 New Orchard Rd",
+	"city": "Armonk",
+	"state": "NY",
+	"countryIdentifier": "USA",
+	"zip5": "10504"
+    },
+    {
+  "scenario": "Multiple accounts, current, and payments scheduled",
+	"partyId": "1001001",
+	"typeOfPartyCode": "PERSON",
+	"firstName": "Cherly",
+	"lastName": "Morris",
+	"dateOfBirth": "12-06-1985",
+	"last4SSN": "1001",
+	"line1": "6073 Bus Ave",
+	"city": "Palo Alto",
+	"state": "CA",
+	"countryIdentifier": "USA",
+	"zip5": "94020"
+    },
+    {
+  "scenario": "Single account, current, and payments scheduled",
+	"partyId": "1001002",
+	"typeOfPartyCode": "PERSON",
+	"firstName": "Danny",
+	"lastName": "Jones",
+	"dateOfBirth": "06-01-1974",
+	"last4SSN": "1002",
+	"line1": "4707 Lovers Ln",
+	"city": "Elmhurst",
+	"state": "IL",
+	"countryIdentifier": "USA",
+	"zip5": "60106"
+    },
+    {
+  "scenario": "Single account, past due, and a notice has been sent",
+	"partyId": "1001003",
+	"typeOfPartyCode": "PERSON",
+	"firstName": "Bucky",
+	"lastName": "Randall",
+	"dateOfBirth": "10-06-1917",
+	"last4SSN": "2010",
+	"line1": "1440 Monroe St",
+	"city": "Madison",
+	"state": "WI",
+	"countryIdentifier": "USA",
+	"zip5": "53711"
+    },
+    {
+  "scenario": "Single account, current, and a refund processed",
+	"partyId": "1001004",
+	"typeOfPartyCode": "PERSON",
+	"firstName": "Jerry",
+	"lastName": "Johnson",
+	"dateOfBirth": "05-06-1981",
+	"last4SSN": "1004",
+	"line1": "2623 Capitol Ave",
+	"city": "Phoenix",
+	"state": "AZ",
+	"countryIdentifier": "USA",
+	"zip5": "85015"
+    }
+  ]
+}

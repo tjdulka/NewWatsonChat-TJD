@@ -1,0 +1,43 @@
+[
+  {
+    "billingNameAndAddress": {
+      "name": "Jerry Johnson",
+      "address": {
+        "postalCode": "85015",
+        "city": "Phoenix",
+        "state": "AZ",
+        "addressLine1": "2623 Capitol Ave"
+      }
+    },
+    "accountBalance": "401.43",
+    "paymentScheduledIndicator": "true",
+    "policyList": [
+      {
+        "policyNumber": "123456710041",
+        "policyType": "Auto"
+      }
+    ],
+    "billingHistory": [
+      {
+        "activityType": "REVERSAL",
+        "activityAmount": "20.52",
+        "activityDate": "02-10-2017"
+      },
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "100.52",
+        "activityDate": "02-01-2017"
+      }
+    ],
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "101.45",
+    "paymentDueDate": "03-03-2017",
+    "billingDocuments": [
+      {
+        "documentDate": "02-02-2017",
+        "documentId": "1111112",
+        "documentType": "Regular Notice"
+      }
+    ]
+  }
+]

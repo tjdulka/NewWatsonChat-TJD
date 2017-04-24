@@ -1,0 +1,29 @@
+<form class="form-inline" autocomplete="off">
+  <div class="form-group ">
+    <input
+      #chatInput
+      [(ngModel)]="text"
+      (keypress) = "emitKeyPress($event)"
+      (ngModelChange)="validateInput()"
+      type={{inputType}}
+      class="form-control message-bar"
+      id="chat-input"
+      placeholder="{{placeholderText}}"
+      name="textInput"
+      autocomplete="off">
+    <button
+      type="button"
+      class="btn btn-default need-agent"
+      [ngClass]="{'shake': shakeTransfer}"
+      (click)="emitNeedAgent()">
+      Live Agent
+    </button>
+    <button
+      #sendButton
+      type="button"
+      class="btn btn-default message-send"
+      (click)="emitSendMessage()">
+      Send
+    </button>
+  </div>
+</form>

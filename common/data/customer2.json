@@ -1,0 +1,38 @@
+[
+  {
+    "billingNameAndAddress": {
+      "name": "Danny Jones",
+      "address": {
+        "postalCode": "60106",
+        "city": "Elmhurst",
+        "state": "IL",
+        "addressLine1": "4707 Lovers Ln"
+      }
+    },
+    "accountBalance": "867.10",
+    "paymentScheduledIndicator": "true",
+    "policyList": [
+      {
+        "policyNumber": "123456710021",
+        "policyType": "Auto"
+      }
+    ],
+    "billingHistory": [
+      {
+        "activityType": "PAYMENT",
+        "activityAmount": "145.45",
+        "activityDate": "01-20-2017"
+      }
+    ],
+    "pastDueIndicator": "false",
+    "minimumAmountDue": "145.45",
+    "paymentDueDate": "03-15-2017",
+    "billingDocuments": [
+      {
+        "documentDate": "01-23-2017",
+        "documentId": "1111112",
+        "documentType": "Regular Notice"
+      }
+    ]
+  }
+]
