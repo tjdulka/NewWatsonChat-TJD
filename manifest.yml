@@ -7,7 +7,7 @@ applications:
   host: watson-billing-agent
   disk_quota: 1024M
 env:
-  CONVERSATION_API_URL: https://387d54bf-d547-466b-98cf-c51bd01cc7d7:OK1QXHtNMKgc@gateway.watsonplatform.net/conversation/api/v1/workspaces/52ae2584-bd1a-4f74-803f-26560bbbde53/message?version=2016-09-20
+  CONVERSATION_API_URL: https://387d54bf-d547-466b-98cf-c51bd01cc7d7:OK1QXHtNMKgc@gateway.watsonplatform.net/conversation/api/v1/workspaces/52ae2584-bd1a-4f74-803f-26560bbbde53/message?version=2016-07-11
   ALCHEMY_API_KEY: d657f72d5825d470913d31eb6b7ebad53f04f83a
   ALCHEMY_BASE_URL: https://gateway-a.watsonplatform.net/calls/
   ALCHEMY_SENTIMENT_PATH: text/TextGetTextSentiment
